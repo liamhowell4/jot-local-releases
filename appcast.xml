@@ -1,13 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-  <channel>
-    <title>Jot Local</title>
-    <link>https://github.com/liamhowell4/jot-local-releases/releases</link>
-    <description>Signed Jot Local updates</description>
-    <language>en</language>
-  </channel>
-</rss><!-- sparkle-signatures:
-edSignature: rib3MrYc6dd3+E0vqFE1e9pAmtMPbOfxrgVWQSPBKu/qM+BggSPqxMf0gKvfxSmhtOcCk0u0gGetG2uS2NaKAQ==
-length: 599
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Jot Local</title>
+        <link>https://github.com/liamhowell4/jot-local-releases/releases</link>
+        <description>Signed Jot Local updates</description>
+        <language>en</language>
+        <item>
+            <title>0.4.1</title>
+            <pubDate>Fri, 04 Sep 2026 16:02:01 -0700</pubDate>
+            <link>https://github.com/liamhowell4/jot-local-releases/releases</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Jot Local now checks for signed updates and downloads them automatically.
+
+- Use Check for Updates from the menu bar to check immediately.
+- Automatic checks and downloads can be switched off in the menu bar.
+- Updates ask before restarting and wait for active dictation work to finish.
+- Downloaded updates can also install when you quit normally.
+- Dictation, transcripts, settings, and local models remain on your Mac.
+
+Requires macOS 14 or later and Apple Silicon. Install this first updater-enabled version manually; future versions can update in the app.
+]]></description>
+            <enclosure url="https://github.com/liamhowell4/jot-local-releases/releases/download/v0.4.1/Jot-Local-0.4.1-arm64.dmg" length="21245244" type="application/octet-stream" sparkle:edSignature="6f3RIv6GafZbbPI3sEnnarOTCuAEDGhPo1XLEbtGiDqxWBavEQXW1cUOqswDG7dbsgDdpGak7QlcOz4K/WfkBQ=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: SPVJK7ufZjV1qViPepeiEX+RXc7ce+RmxghYKCP1RSq7OheIGIWfMkHLnpQyxyektMGC2U2m2D3zINzE8JsbBw==
+length: 2047
 -->
