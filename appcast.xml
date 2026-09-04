@@ -9,6 +9,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed Jot Local updates</description>
         <language>en</language>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Fri, 04 Sep 2026 16:18:15 -0700</pubDate>
+            <link>https://github.com/liamhowell4/jot-local-releases/releases</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Customize S1-mini's local cleanup style in Settings → Dictation.
+
+- Choose a writing style: Casual, Semi-casual, Semi-formal, or Formal.
+- Expand Advanced controls to choose prose or lists and general or email context.
+- Choices are saved and apply to the next cleanup without reloading the models.
+- Turn Smart cleanup off to insert the literal transcript; style controls are disabled while it is off.
+- A visible Check for Updates button is now available in About.
+- The Privacy link opens Jot Local's current privacy documentation, including optional update checks and downloads.
+
+Updates are signed and notarized, ask before restarting, and wait for active dictation work. Requires macOS 14 or later and Apple Silicon.
+]]></description>
+            <enclosure url="https://github.com/liamhowell4/jot-local-releases/releases/download/v0.5.0/Jot-Local-0.5.0-arm64.dmg" length="21247712" type="application/octet-stream" sparkle:edSignature="lffkabYWgpTjtsTtGKTx72+DlR4kmW8gCGfutLRAT2BCbPLzO2glytv21SZyHfEUJaJsRkth/ANAkwK9y5VZCg=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Fri, 04 Sep 2026 16:02:01 -0700</pubDate>
             <link>https://github.com/liamhowell4/jot-local-releases/releases</link>
@@ -31,6 +52,6 @@ Requires macOS 14 or later and Apple Silicon. Install this first updater-enabled
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: SPVJK7ufZjV1qViPepeiEX+RXc7ce+RmxghYKCP1RSq7OheIGIWfMkHLnpQyxyektMGC2U2m2D3zINzE8JsbBw==
-length: 2047
+edSignature: 4X1EeDFR/op7vEmw7QOPO3uzPuHVJ8Fl5bqVPIQvTGy6sYEas+ZQOfBKndB9GNLNlkVTr574BikAc+lmu7+ODQ==
+length: 3636
 -->
