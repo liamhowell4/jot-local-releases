@@ -9,6 +9,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed Jot Local updates</description>
         <language>en</language>
         <item>
+            <title>0.5.1</title>
+            <pubDate>Sun, 27 Sep 2026 14:17:45 -0500</pubDate>
+            <link>https://github.com/liamhowell4/jot-local-releases/releases</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Jot Local 0.5.1
+
+- Fixed a crash during microphone preparation when the input device or audio format changes.
+- Failed microphone setup now returns a recoverable error instead of closing Jot.
+- Discarded stale prepared audio engines after microphone changes.
+- Closing the last window explicitly keeps Jot running in the menu bar.
+]]></description>
+            <enclosure url="https://github.com/liamhowell4/jot-local-releases/releases/download/v0.5.1/Jot-Local-0.5.1-arm64.dmg" length="21189138" type="application/octet-stream" sparkle:edSignature="3WO6piXh1f0/SHa1438mfNzmh2Zerc/csst/lcSqcqhwM5I9UUkjvAlb/tQ9wac22TST9/BTMmL9fveyjLWqCA=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Fri, 04 Sep 2026 16:18:15 -0700</pubDate>
             <link>https://github.com/liamhowell4/jot-local-releases/releases</link>
@@ -52,6 +69,6 @@ Requires macOS 14 or later and Apple Silicon. Install this first updater-enabled
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 4X1EeDFR/op7vEmw7QOPO3uzPuHVJ8Fl5bqVPIQvTGy6sYEas+ZQOfBKndB9GNLNlkVTr574BikAc+lmu7+ODQ==
-length: 3636
+edSignature: 9YrW4gb4GI4BGO/dTRAHLo1T6pPGjxkeVY31Mh6ObqTxtbdjFQ+yAVG9nhLDxkQa8tnVVw6J+0vgVrSn1u1+Dg==
+length: 4833
 -->
